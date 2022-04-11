@@ -552,6 +552,18 @@ img {
   width: 85%;
 }
 
+.skills__apex {
+  width: 90%;
+}
+
+.skills__aura {
+  width: 85%;
+}
+
+.skills__flow {
+  width: 85%;
+}
+
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
@@ -967,7 +979,8 @@ img {
 .footer__title,
 .footer__subtitle,
 .footer__link,
-.footer__social {
+.footer__social,
+.footer__copy {
   color: #ffffff;
 }
 
