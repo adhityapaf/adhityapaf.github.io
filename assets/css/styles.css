@@ -1102,6 +1102,16 @@ img {
     .testimonial__description {
         text-align: center;
     }
+
+    .portfolio__modal-content {
+      width: 288px;
+    }
+}
+
+@media screen and (min-width: 350px) {
+  .portfolio__modal-content {
+    width: 388px;
+  }
 }
 
 /* For medium devices */
@@ -1136,6 +1146,10 @@ img {
         display: grid;
         grid-template-columns: .6fr;
         justify-content: center;
+    }
+
+    .portfolio__modal-content {
+      width: 454px;
     }
 }
 
@@ -1310,6 +1324,18 @@ img {
     .footer__copy {
         margin-top: 4.5rem;
     }
+
+    .portfolio__modal-content {
+      width: 720px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-height: 706px) {
+  .portfolio__modal-content .app_screen__img {
+    width: 50vw;
+    height: 50vh;
+    object-fit: contain;
+  }
 }
 
 /* For large devices */
@@ -1359,4 +1385,29 @@ img {
     .contact_inputs {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .portfolio__modal-content {
+      width: 900px;
+    }
+}
+
+.modal-image-container {
+  display: flex;
+  flex-direction: row;
+}
+.app_screen__img {
+  width: auto;
+  height: auto;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+.modal-swiper-pagination {
+  margin: 1rem;
+  justify-content: center;
+  display: flex;
+}
+
+.modal-swiper-pagination > .swiper-pagination-bullet {
+  margin-right: 8px;
 }

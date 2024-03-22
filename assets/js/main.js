@@ -102,6 +102,20 @@ let swiperPortfolio= new Swiper('.portfolio__container', {
       clickable: true
     },
   });
+
+/*==================== PORTFOLIO MODAL SWIPER  ====================*/
+let swiperModalPortfolio = new Swiper('.portfolio_modal__container', {
+    loop: true,
+
+    navigation: {
+      nextEl: '.modal-swiper-button-next',
+      prevEl: '.modal-swiper-button-prev',
+    },
+    pagination: {
+      el: '.modal-swiper-pagination',
+      clickable: true
+    },
+  });
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper('.testimonial__container', {
   loop: true,
